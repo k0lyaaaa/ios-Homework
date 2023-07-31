@@ -27,6 +27,7 @@ class FeedViewController: UIViewController {
             super.viewDidLoad()
             view.backgroundColor = .systemPink
             view.addSubview(self.actionButton)
+
         
         let safeAreaLayoutGuide = view.safeAreaLayoutGuide
         NSLayoutConstraint.activate([
@@ -43,6 +44,8 @@ class FeedViewController: UIViewController {
         ])
         
         actionButton.addTarget(self, action: #selector(buttonPressed(_:)), for: .touchUpInside)
+        
+       
     }
     
     
