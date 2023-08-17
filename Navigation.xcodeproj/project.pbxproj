@@ -12,6 +12,7 @@
 		957E68682A816A6700FDAA31 /* extensionUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E68672A816A6700FDAA31 /* extensionUiView.swift */; };
 		957E686A2A816A8900FDAA31 /* extensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E68692A816A8900FDAA31 /* extensionUIImage.swift */; };
 		957E686C2A816AA000FDAA31 /* LayoutConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E686B2A816AA000FDAA31 /* LayoutConstants.swift */; };
+		957E689A2A8E392E00FDAA31 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E68992A8E392E00FDAA31 /* PostTableViewCell.swift */; };
 		95F3A4842A700A7D00A5116F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3A4832A700A7D00A5116F /* AppDelegate.swift */; };
 		95F3A4862A700A7D00A5116F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3A4852A700A7D00A5116F /* SceneDelegate.swift */; };
 		95F3A4882A700A7D00A5116F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3A4872A700A7D00A5116F /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		957E68672A816A6700FDAA31 /* extensionUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUiView.swift; sourceTree = "<group>"; };
 		957E68692A816A8900FDAA31 /* extensionUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIImage.swift; sourceTree = "<group>"; };
 		957E686B2A816AA000FDAA31 /* LayoutConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstants.swift; sourceTree = "<group>"; };
+		957E68992A8E392E00FDAA31 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		95F3A4802A700A7D00A5116F /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F3A4832A700A7D00A5116F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95F3A4852A700A7D00A5116F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				95F3A4A22A700F2D00A5116F /* ProfileHeaderView.swift */,
 				957E685C2A7835DC00FDAA31 /* LogInViewController.swift */,
 				957E685E2A81678B00FDAA31 /* ProfileViewController.swift */,
+				957E68992A8E392E00FDAA31 /* PostTableViewCell.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				95F3A49A2A700C3800A5116F /* FeedViewController.swift in Sources */,
 				957E686C2A816AA000FDAA31 /* LayoutConstants.swift in Sources */,
 				95F3A4A32A700F2D00A5116F /* ProfileHeaderView.swift in Sources */,
+				957E689A2A8E392E00FDAA31 /* PostTableViewCell.swift in Sources */,
 				957E68682A816A6700FDAA31 /* extensionUiView.swift in Sources */,
 				95F3A4842A700A7D00A5116F /* AppDelegate.swift in Sources */,
 				95F3A49E2A700C6D00A5116F /* Post.swift in Sources */,
