@@ -2,7 +2,7 @@
 //  ProfileViewController.swift
 //  Navigation
 //
-//  Created by Nikolay on 25.07.2023.
+//  Created by Nikolay on 07.08.2023.
 //
 
 import UIKit
@@ -17,8 +17,8 @@ class ProfileViewController: UIViewController {
     
     private let newButton: UIButton = {
         let view = UIButton()
-        view.backgroundColor = UIColor.green
-        view.setTitle("Кнопка снизу", for: .normal)
+        view.backgroundColor = .gray
+        view.setTitle("New Button", for: .normal)
         view.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         view.layer.masksToBounds = false
         view.translatesAutoresizingMaskIntoConstraints = false
